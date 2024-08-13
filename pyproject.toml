@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "splatoon_roulette_bot"
+version = "0.1.0"
+description = "A Discord bot for Splatoon weapon roulette"
+authors = ["zettsun <zettsun001@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+discord-py = "^2.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
